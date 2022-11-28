@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.netlinesystems">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NetlineSystems"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".AgregarMaterialDim"></activity>
+        <activity android:name=".AgregarMaterialServ" />
+        <activity android:name=".AgregarEquipo" />
+        <activity android:name=".AgregarServ" />
+        <activity android:name=".AgregarDimen" />
+        <activity android:name=".Almacen_Activity" />
+        <activity android:name=".Notas_Activity" />
+        <activity android:name=".Equipos_Activity" />
+        <activity android:name=".Dimensionamiento_Activity" />
+        <activity android:name=".Servicios_Activity" />
+        <activity android:name=".Perfil_Activity" />
+        <activity android:name=".Inicio_Activity" />
+        <activity android:name=".Login_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

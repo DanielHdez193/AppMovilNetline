@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Netline</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Strings para EditText -->
+    <string name="etNombreUsuario">Usuario</string>
+    <string name="etContraUsuario">Contraseña</string>
+
+    <!-- Strings para TextView -->
+    <string name="tvBienvenida">"¡Bienvenido!"</string>
+    <string name="tvServicios">"Ordenes de Servicio"</string>
+    <string name="tvDimensionamientos">"Dimensionamientos"</string>
+    <string name="tvNuevoDimen">"Nuevo Dimensionamiento"</string>
+    <string name="tvNuevoServ">"Nuevo Servicio"</string>
+    <string name="tvAlmacen">"Almacen"</string>
+    <string name="tvNotas">"Notas"</string>
+    <string name="tvPendientes">"Pendientes"</string>
+    <string name="tvEquipos">"Recolección de Equipos"</string>
+
+    <!-- Strings para TextView Servicios -->
+    <string name="tvCodigo">"Id"</string>
+    <string name="tvCliente">"Cliente"</string>
+    <string name="tvEmpleado">"Empleado"</string>
+    <string name="tvFecha">"Fecha"</string>
+    <string name="tvEstatus">Estatus</string>
+    <string name="tvEditar">Editar</string>
+    <string name="tvEliminar">Eliminar</string>
+
+
+    <!-- Strings para Button -->
+    <string name="btnIniciarSesion">Iniciar Sesión</string>
+    <string name="btnAgregar">Agregar</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnagregarMat">Materiales</string>
+
+    <!-- Strings para ImageView-->
+    <string name="ivLogo">LogoNetline</string>
+    <string name="ibIcono">Icono</string>
+
+    <!-- Strings para Item-->
+    <string name="itMenu">Menu Principal</string>
+    <string name="itPerfil">Perfil</string>
+    <string name="itSalir">Salir</string>
+
+    <!--String para RadioButton-->
+    <string name="rbRecordar">Recordarme</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
